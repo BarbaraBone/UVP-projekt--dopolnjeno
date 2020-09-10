@@ -1,0 +1,24 @@
+%rebase('base.tpl')
+ <h1 class="title is-1">Ploščina starega in novega lika</h1>
+
+
+    Oglišča vnešenega lika: {{tocke}}<br>
+    Ploščina lika, ki si ga vnesel v program je {{lik.ploscina_lika()}} <br>
+    <br>
+    <br>
+
+
+    <h2>Nov lik</h2>
+
+    Vnešen lik je presekan z ravnino: {(x,y); x &#60= {{meja}} }<br>
+    Oglišča novega lika so {{lik.naredi_nov_lik()}}.<br>
+    Ploščina novega lika je {{lik.ploscina_novega_lika()}}<br>
+    <br>
+    <br>
+
+
+
+
+ <form action="/" method="GET">
+    <input class="button is-light" type="submit" value="Nazaj na začetno stran"> 
+ </form>
